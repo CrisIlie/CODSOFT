@@ -1,0 +1,167 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("./assets/portfolio_logo.png") ;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.description {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; 
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+  }
+
+.description h2{
+    color: rgb(124, 124, 189);
+    font-weight: 600;
+  }
+
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.navbar li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar a{
+    color: rgb(74, 74, 117);
+    text-decoration: none;
+    font-weight: bold;
+    font-size:xx-large
+}
+
+.navbar a:hover{
+    color: #e0e0e0;
+}
+
+header h2{
+    color: white;
+    text-align: right;
+    
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-top: 150px;
+}
+.title {
+    background-color: rgb(74, 74, 117);
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+    padding: 5px 20px; 
+    position: relative; 
+    color: whitesmoke;
+  }
+  
+#about img {
+    width: 500px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#about p{
+    font-size: 25px;
+}
+
+#about {
+   
+    & > .container > .row > .col > p:first-child {
+      border-top: 1px solid #ccc;
+      margin-top: 30px; 
+    }
+
+    & > .container > .row > .col > p:not(:last-child) {
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 30px;
+    }
+
+    & > .container > .row > .col > p:last-child {
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 30px; 
+    }
+  }
+
+#skills .container{
+    margin-top: 20px;
+}
+
+#skills .col{
+    border-left: 1px solid 
+}
+
+#skills ul{
+    font-size: 25px;
+}
+#skills li{
+    font-size: 20px;
+    
+}
+
+
+#projects .project {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#projects p, #projects a{
+    font-size: 20px;
+}
+
+.cv{
+    margin-top: 20px;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.contacts{
+    margin: 50px;
+    font-size: 25px;
+}
+
+footer {
+    background-color: #0A121D;
+    color:rgb(124, 124, 189);
+    padding: 20px; 
+  }
+  
+  
+  .footer-content a {
+    margin: 10px; 
+    padding: 10px; 
+    border-radius: 50%; 
+    background-color: #f5f5f5; 
+    color: #333; 
+  }
+  .bottom-row {
+    text-align: center; 
+    margin-top: 20px; 
+  }

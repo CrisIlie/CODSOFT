@@ -1,0 +1,202 @@
+.logo-img{
+  transform: scale(15%);  
+}
+
+.navbar{
+    height: 100px;
+}
+
+.hero-section{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.create-jewelry-btn{
+    background-color: #FF8946;
+    color: whitesmoke;
+    border-color: #FF8946;
+    padding: 5px;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.eyebrow-btn{
+    background-color: rgb(255, 254, 254);
+    color: #5B6876;
+    border-color:#edeef0;
+    padding: 5px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    font-size: small;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.hero-p{
+    color: #7d8286;
+    width: 70%;
+    margin-left: 70px;
+}
+
+.hero-title, .offer{
+    margin-left: 70px;
+}
+
+
+.offers{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.arrow-btn-left{
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20%;
+    border: none;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 350px;
+}
+
+
+.btn-primary{
+    background-color: #FF8946;
+    color: whitesmoke;
+    border-color: #FF8946;
+    padding: 5px;
+    border-radius: 100px;
+}
+
+.new-products{
+    margin-bottom: 150px;
+    margin-left: 10px;
+}
+
+.arrow-btn-right{
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20%;
+    border: none;
+    align-items: center;
+    margin-top: 350px;
+    margin-right:70px;
+}
+
+.old-price{
+    text-decoration: line-through;
+}
+
+.newsletter{
+    margin-bottom: 150px;
+    background-color: #152f49;
+    color: whitesmoke;
+}
+.btn-primary-newsletter{
+    background-color: #FF8946;
+    color: whitesmoke;
+    border-color: #FF8946;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-left: 70px; 
+    margin-bottom: 100px; 
+}
+
+.newsletter-title{
+padding-top: 100px;
+margin-left: 70px;
+} 
+.newsletter-text{
+    margin-left: 70px;
+}
+
+#newsletterEmail{
+    width: 350px;
+    margin-left: 70px;
+    background-color: #152f49;
+    color: #edeef0;
+}
+
+#emailHelp{
+    color: whitesmoke;
+    margin-left: 70px;
+    margin-bottom: 40px;
+}
+
+.form-label{
+    margin-left: 70px;
+}
+
+input[type="email"]::-webkit-input-placeholder {
+    color: rgb(112, 106, 106);;
+  }
+  
+  input[type="email"]::-moz-placeholder {
+    color: rgb(112, 106, 106);
+  }
+  
+  input[type="email"]::placeholder {
+    color: rgb(112, 106, 106);
+  }
+
+footer{
+    margin-top:auto;
+    padding-top: 1.5em;
+    background-color:#e7dd80de ;
+    color:#242323;
+    text-align:center;
+  }
+
+
+  .grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+  }
+
+
+  footer h3{
+    font-weight:bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+
+  footer a {
+    color:#1d1c1c;
+    margin: 0 10px;
+    font-size: 1.5rem;
+  }
+  
+  footer a:hover {
+    color: #fff;
+  }
+
+  footer p {
+    font-size:15px;
+    margin-bottom:10px;
+  }
+
+  footer h6{
+    font-size:12px;
+    letter-spacing: 1px;
+  } 
+  
+  
+@media screen and (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+    
+    .hero-img, .card {
+      width: 100%;  
+    }
+
+    .arrow-btn-left, .arrow-btn-right {
+        display: none;
+      }
+  }
+  

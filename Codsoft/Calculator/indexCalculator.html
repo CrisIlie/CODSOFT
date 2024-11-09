@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesCalculator.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <!-- design for the calculator, after a real life model - like a rectangle/square box with a screen on the upper part and
+        keys for numbers and math operations on the lower part -->
+
+    <div class="container">
+      <div class="calculator">
+        <!--the display that shows 0 when the calculator is on-->
+        <div class="display">0</div>
+        <!-- the numbers and operations keys-->
+        <div class="keys">
+          <button class="operator-key" data-action="add">+</button>
+          <button class="operator-key" data-action="subtract">-</button>
+          <button class="operator-key" data-action="multiply">×</button>
+          <button class="operator-key" data-action="divide">÷</button>
+          <button>6</button>
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button>2</button>
+          <button>3</button>
+          <button>4</button>
+          <button>5</button>
+          <button>1</button>
+          <button>0</button>
+          <button data-action="decimal">.</button>
+          <button data-action="clear">AC</button>
+          <button class="equal-key" data-action="calculate">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
